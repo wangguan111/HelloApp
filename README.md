@@ -1,5 +1,5 @@
 # HelloApp
-Pratice the java exercise
+Pratice and study the java servlet.
 
 3.2 Cerate the first web
 
@@ -33,7 +33,7 @@ Pratice the java exercise
 	3.getResourceAsStream,getRealPath
 
 
-5.6 forward and include
+5.6 Forward and include
 
 	url:http://localhost:8080/HelloApp/check?username=Tom
 
