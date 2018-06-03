@@ -83,3 +83,15 @@ Pratice and study the java servlet.
 	url:http://127.0.0.1:8080/HelloApp/note
 
 	code:20-4,20-5,20-6
+
+
+23 Struts2
+
+	url:http://127.0.0.1:8080/HelloApp/index.jsp
+
+	code:23-1,23-2
+
+	1.struts2
+	2.mvc
+	3.add the jar in the lib
+	4.web.xml, struts.xml
