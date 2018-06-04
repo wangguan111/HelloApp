@@ -7,7 +7,7 @@
 
 <struts>
 <constant name="struts.devMode" value="true" />
-   <package name="com.helloapp.struts2" extends="struts-default">
+   <package name="com.helloapp.struts2" extends="struts-default">     
       <action name="login" 
             class="com.helloapp.struts2.Login" 
             method="execute">
