@@ -11,7 +11,7 @@
       <action name="login" 
             class="com.helloapp.struts2.Login" 
             method="execute">
-            <result name="success">/HelloWorld.jsp</result>
+            <result name="success">/helloWorld.jsp</result>
       </action>
    </package>
 </struts>

@@ -1,4 +1,4 @@
-<!-- 23-1 struts2-->
+<!-- 23-3 struts2-->
 <%@ page contentType="text/html; charset=UTF-8" %>
 <%@ taglib prefix="s" uri="/struts-tags" %>
 <html>
