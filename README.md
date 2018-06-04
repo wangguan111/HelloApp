@@ -89,7 +89,7 @@ Pratice and study the java servlet.
 
 	url:http://127.0.0.1:8080/HelloApp/index.jsp
 
-	code:23-1,23-2
+	code:23-1,23-2,23-3,23-4,23-5
 
 	1.struts2
 	2.mvc
