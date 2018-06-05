@@ -95,3 +95,15 @@ Pratice and study the java servlet.
 	2.mvc
 	3.add the jar in the lib
 	4.web.xml, struts.xml
+
+
+25.3 MemoryReal
+
+	url:any
+
+	code:25-1,25-2,25-3,25-4
+
+	1.tomcat
+	2.j_security_check,j_username,j_password
+	3.web.xml
+	4.tomcat-users.xml
