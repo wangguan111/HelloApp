@@ -107,3 +107,15 @@ Pratice and study the java servlet.
 	2.j_security_check,j_username,j_password
 	3.web.xml
 	4.tomcat-users.xml
+
+
+28 Tomcat
+
+	url:any
+
+	code:28-1
+
+	1.server.xml
+	2.AccessLogValve
+	3.RemoteAddrValve,RemoteHostValve
+	4.RequestDumperValue
