@@ -119,3 +119,12 @@ Pratice and study the java servlet.
 	2.AccessLogValve
 	3.RemoteAddrValve,RemoteHostValve
 	4.RequestDumperValue
+
+
+31 Log4j
+
+	url:http://localhost:8080/HelloApp/login.jsp
+
+	code:31-0,31-1,31-2,31-3
+
+	1.Log4j

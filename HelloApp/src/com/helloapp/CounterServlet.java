@@ -19,8 +19,7 @@ import javax.servlet.http.HttpServletResponse;
 //@WebServlet("/counter")
 @WebServlet(
 		description = "for test save data in Attribute", 
-		urlPatterns = { "/counter" },
-		loadOnStartup = 1 
+		urlPatterns = { "/counter" }
 		)
 public class CounterServlet extends HttpServlet 
 {

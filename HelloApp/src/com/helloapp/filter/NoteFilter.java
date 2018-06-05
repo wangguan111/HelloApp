@@ -27,7 +27,7 @@ public class NoteFilter implements Filter
 	@Override
     public void init(FilterConfig config) throws ServletException 
     {
-      System.out.println("NoteFilter init");
+      System.out.println("NoteFilter: filter is init");
       
       this.config = config;
       

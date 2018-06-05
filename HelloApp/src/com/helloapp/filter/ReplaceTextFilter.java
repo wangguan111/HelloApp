@@ -26,7 +26,7 @@ public class ReplaceTextFilter implements Filter
   @Override
   public void init(FilterConfig config) throws ServletException 
   {
-     System.out.println("ReplaceTextFilter init");
+     System.out.println("ReplaceTextFilter:filter is init");
 	  
 	 this.config = config;
     

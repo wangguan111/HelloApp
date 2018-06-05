@@ -4,8 +4,6 @@ import java.io.IOException;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebInitParam;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -21,16 +19,17 @@ import javax.servlet.http.HttpServletResponse;
 //4.setAttribute,getAttribute
 //5.getParameter
 
-//@WebServlet("/dispatcher")
-@WebServlet(
-		description = "for the first test servlet", 
-		urlPatterns = { "/dispatcher" }, 
-		initParams = 
-			{ 
-				@WebInitParam(name = "user", value = "manager", description = "user id"),		  
-				@WebInitParam(name = "password", value = "manager", description = "password") 
-			}
-		)
+//this is annotation for 31, Servlet need to be set in web.xml
+////@WebServlet("/dispatcher")
+//@WebServlet(
+//		description = "for the first test servlet", 
+//		urlPatterns = { "/dispatcher" }, 
+//		initParams = 
+//			{ 
+//				@WebInitParam(name = "user", value = "manager", description = "user id"),		  
+//				@WebInitParam(name = "password", value = "manager", description = "password") 
+//			}
+//		)
 public class DispatcherServlet extends HttpServlet
 {
 	private static final long serialVersionUID = 3570748073146908871L;
@@ -46,7 +45,7 @@ public class DispatcherServlet extends HttpServlet
 	{
 		String user = getInitParameter("user");
 		String password = getInitParameter("password");
-	    System.out.println("user = " + user + ", password  = " + password);
+	    System.out.println("DispatcherServlet user = " + user + ", password  = " + password);
 	}
 
 	@Override

@@ -27,7 +27,7 @@ public class MyServletContextListener implements ServletContextListener
 	@Override
 	public void contextInitialized(ServletContextEvent arg0) 
 	{
-		System.out.println("Listener:app is init");
+		System.out.println("Listener:Listener is init");
 
 		ServletContext context = arg0.getServletContext();
 
